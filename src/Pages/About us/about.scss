@@ -1,0 +1,33 @@
+.about {
+    // background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        margin-top: 20px;
+        width: 50%;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: 500;
+
+    }
+
+    img {
+        width: 60vw;
+        height: 50vh;
+        margin-top: 50px;
+        object-fit: cover;
+    }
+
+    p{
+        width: 60%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+}

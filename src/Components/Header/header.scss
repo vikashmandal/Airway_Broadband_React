@@ -1,0 +1,94 @@
+.header {
+    .header-container {
+        background: #ececec;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 50px;
+
+        .mail {
+            color: #000;
+            padding: 10px 15px;
+            border-radius: 40px;
+            display: flex;
+            gap: 10px;
+
+            .mail-data {
+                margin-top: 10px;
+                cursor: pointer;
+                background: #f2f6fc;
+                color: #000;
+                padding: 6px 25px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                span {
+                    font-weight: 300;
+                    margin-left: 5px;
+                }
+
+                h6 {
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .call {
+            display: flex;
+            gap: 40px;
+
+            .call-tab {
+                display: flex;
+                align-items: center;
+                color: #fff;
+                color: #000;
+                position: relative;
+
+                .outer-circle {
+                    background-color: rgb(250, 197, 205);
+                    padding: 5px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: -13%;
+
+                    .inner-circle {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 16px;
+                        background-color: #f63e02;
+                        border-radius: 50%;
+                        color: #fff;
+                    }
+                }
+
+                .number {
+                    background: #f2f6fc;
+                    color: #000;
+                    padding: 4px 25px;
+                    border-radius: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                    h6 {
+                        margin-block: 2px;
+                        font-weight: 600;
+                        font-size: 12px;
+                    }
+
+                    p {
+                        color: #212121;
+                    }
+                }
+            }
+        }
+    }
+}

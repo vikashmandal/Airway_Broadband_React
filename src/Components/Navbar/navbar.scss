@@ -1,0 +1,31 @@
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 30px;
+        border-bottom: 0.5px solid lightgrey;
+
+        .logo {
+            img {
+                width: 130px;
+            }
+        }
+
+        .links {
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 25px;
+                    margin-left: 5px;
+                    list-style: none;
+                    font-weight: 300;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: rgb(230, 52, 52);
+                    }
+                }
+            }
+        }
+    }

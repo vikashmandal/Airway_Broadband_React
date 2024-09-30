@@ -1,0 +1,73 @@
+.glance-card {
+    position: relative;
+    width: 190px;
+    height: 250px;
+    padding: 20px;
+    border: 1.5px solid #9a3333;
+    border-radius: 5px;
+
+    .glance-data {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #9a3333;
+            color: #9a3333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: 400;
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+            
+        }
+
+          button {
+            border: none;
+            background-color: #9a3333;
+            
+            color: #fff;
+            padding: 5px 10px;
+            outline: none;
+            border-radius: 4px;
+            position: absolute;
+            bottom: 20px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                color: #fff;
+                background-color: #3d0b0b;
+                // font-weight: 500;
+                // background-color: #9a3333;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+.glance-container .glance button:hover {
+    background-color: #692a4b;
+}
