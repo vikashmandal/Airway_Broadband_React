@@ -1,0 +1,48 @@
+.chat{
+    position: fixed;
+    color: aliceblue;
+    z-index: 100;
+    top: 80%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border: 2px solid #25D366;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    margin-right: 100px;
+    border-right: none;
+    transition: 0.3s all ease-in;
+
+    &:hover{
+        background: #fff;
+        color: #25D366;
+        border: 2px solid #25D366;
+        border-right: none;
+    }
+    
+    .chat-icon{
+
+    }
+}
+
+@media(max-width:900px){
+    .chat{
+        padding: 8px 12px;
+    }
+    
+    span{
+        font-size: 14px;
+    }
+}
+@media(max-width:900px){
+    .chat{
+        padding: 5px 8px;
+    }
+    span{
+        font-size: 12px;
+    }
+}

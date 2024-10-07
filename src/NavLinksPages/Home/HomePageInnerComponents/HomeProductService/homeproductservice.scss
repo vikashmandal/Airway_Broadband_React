@@ -1,0 +1,103 @@
+.home-products-services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+
+    .home-products-services-container {
+        display: flex;
+        flex-wrap: wrap;
+        // align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 20px;
+
+        .product-service-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            // background-color: aqua;
+
+            .product-service-img {
+                // background: #000;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .product-service-data {
+                h3 {
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (max-width: 940px) {
+    .home-products-services-section {
+        .home-products-services-container {
+            .product-service-card {
+                .product-service-img {
+                    width: 80%;
+                    height: 80%;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 755px) {
+    .home-products-services-section {
+        .home-products-services-container {
+            .product-service-card{
+
+                .product-service-data {
+                    h3 {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width: 385px) {
+    .home-products-services-section {
+        .home-products-services-container {
+            .product-service-card{
+                .product-service-data {
+                    h3 {
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}

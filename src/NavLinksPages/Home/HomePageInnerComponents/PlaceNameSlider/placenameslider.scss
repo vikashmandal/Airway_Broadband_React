@@ -1,0 +1,50 @@
+// CountrySlider.scss
+
+.place-slider {
+    width: 100%; 
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgb(240, 239, 239);
+    padding: 10px 0;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    margin-bottom: 10px;
+  
+    .slider-content {
+      display: inline-block;
+      white-space: nowrap;
+      animation: slide 250s linear infinite; // Adjust duration based on the number of countries
+  
+      .country-name {
+        display: inline-block;
+      
+        font-size: 14px;
+        color: rgb(51, 47, 47);
+        // color: #8585fd;
+      }
+    }
+  }
+  
+  // Animation for continuous sliding
+  @keyframes slide {
+    0% {
+      transform: translateX(0); // Start at the original position
+    }
+    100% {
+      transform: translateX(-50%); // Move by half the width of the duplicated content
+    }
+  }
+
+  @media(max-width:800px){
+    .place-slider{
+      padding: 8px 0;
+      .slider-content{
+        .country-name{
+          font-size: 12px;
+        }
+      }
+    }
+
+  }
+  

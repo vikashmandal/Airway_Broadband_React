@@ -25,10 +25,11 @@
     }
 
     .sidebar-links {
-        background-color: #ececec;
+        background-color: #f2f6fc;
         border-radius: 40px;
         padding: 20px 0;
         overflow: hidden;
+        // background: #000;
 
         a{
             color: #212121;
@@ -65,5 +66,12 @@
                 transition: opacity 3s ease;
             }
         }
+    }
+}
+
+@media(max-width:350px){
+    .sidebar{
+        width: 40px;
+        top: 20%;
     }
 }

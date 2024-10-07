@@ -1,0 +1,90 @@
+.plan-tarrif-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .plan-card {
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        padding-bottom: 10px;
+
+        .plan-card-info {
+            font-weight: 400;
+            background-color: rgb(39, 133, 109);
+            padding: 10px;
+            width: 100%;
+            color: aliceblue;
+            text-align: center;
+
+        }
+
+        .plan-card-priceinfo {
+            text-align: center;
+            border-bottom: 1px solid;
+            font-size: 15px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 3px 10px;
+
+            .plan-card-validity {
+
+                font-weight: 500;
+                margin: 5px;
+            }
+
+            .rs-symbol {
+                font-size: 20px;
+                margin-right: 7px;
+            }
+
+            .plan-card-price {
+                font-size: 20px;
+
+            }
+
+        }
+
+        .plan-card-dataspeed {
+
+        }
+
+        .plan-card-extrainfo {
+            li {
+                padding: 5px 20px;
+                border-bottom: 1px solid lightgray;
+
+            }
+
+        }
+
+        .plan-card-button {
+            padding-inline: 20px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            button {
+                margin-top: 10px;
+                background-color: rgb(39, 133, 109);
+                border: none;
+                outline: none;
+                padding: 10px;
+                border-radius: 5px;
+                color: white;
+                margin-right: 10px;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+        }
+
+    }
+
+}

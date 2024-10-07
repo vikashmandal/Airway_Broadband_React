@@ -1,0 +1,70 @@
+.sales-chat-num-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e4ea;
+
+    h3 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-block: 10px;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+
+        span {
+            color: #3333cc;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .sales-chat-num-section {
+        h3 {
+            width: 80%;
+        }
+
+        h1 {
+            font-size: 25px;
+
+        }
+
+    }
+}
+
+@media (max-width: 710px) {
+    .sales-chat-num-section {
+        h3 {
+            font-size:15px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 25px;
+
+        }
+
+    }
+}
+@media (max-width: 525px) {
+    .sales-chat-num-section {
+        h3 {
+            font-size: 12px;
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 14px;
+
+        }
+
+    }
+}
+

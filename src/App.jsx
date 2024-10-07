@@ -4,18 +4,18 @@ import {
   RouterProvider,
   Outlet
 } from "react-router-dom";
-import Home from './Pages/Home/Home';
-import About from './Pages/About us/About';
-import Contact from './Pages/Contact/Contact';
+import Home from './NavLinksPages/Home/Home';
+import About from './NavLinksPages/About us/About';
+import Contact from './NavLinksPages/Contact/Contact';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
-import Products from './Pages/Products/Products';
-import PlanTariff from './Pages/PlanTariff/PlanTariff';
-import Solutions from './Pages/Solutions/Solutions';
-import Gallery from './Pages/Gallery/Gallery';
-import Download from './Pages/Download/Download';
-import CustomerCare from './Pages/CustomerCare/CustomerCare';
-import Faq from './Pages/Faq/Faq';
+import Products from './NavLinksPages/Products/Products';
+import PlanTariff from './NavLinksPages/PlanTariff/PlanTariff';
+import Solutions from './NavLinksPages/Solutions/Solutions';
+import Gallery from './NavLinksPages/Gallery/Gallery';
+import Download from './NavLinksPages/Download/Download';
+import CustomerCare from './NavLinksPages/CustomerCare/CustomerCare';
+import Faq from './NavLinksPages/Faq/Faq';
 import Header from './Components/Header/Header';
 import Sidebar from './Components/Sidebar/Sidebar';
 
@@ -25,8 +25,8 @@ const Layout = () => {
       <Header />
       <Navbar />
       <Outlet />
-      <Footer />
       <Sidebar />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,113 @@
+.glance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 30px;
+    gap: 30px;
+    margin-bottom: 30px;
+
+    .glance-card-container {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 30px;
+        gap: 30px;
+
+
+        .glance-card {
+            position: relative;
+            height: 250px;
+            width: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f2f6fc;
+            padding: 20px;
+            transition: 1s all ease;
+            text-align: center;
+            cursor: default;
+
+            &:hover .glance-icon,
+            &:hover .glance-data h5,
+            &:hover .glance-data small {
+                color: #fff;
+
+            }
+
+            &:hover button {
+                cursor: pointer;
+                background-color: #fff;
+                color: #3333cc;
+            }
+
+            &:hover {
+                background-color: #3333cc;
+                cursor: default;
+
+            }
+
+            .glance-icon {
+                color: #212121;
+                font-size: 48px;
+                margin-bottom: 10px;
+
+            }
+
+            .glance-data {
+                h5 {
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                small {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            a{
+
+                
+                position: absolute;
+                bottom: 10px;
+                button {
+                    border: none;
+                    outline: none;
+                    // background-color: #fff;
+                    border: 1px solid #212121;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                    background-color: transparent;
+                    font-size: 12px;
+                    
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
+@media (max-width: 720px) {
+    .glance-section {
+        .glance-card-container {
+            .glance-card {
+                .glance-icon {
+                    font-size: 35px;
+                }
+                .glance-data{
+                    h5{
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
